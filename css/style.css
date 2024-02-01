@@ -169,8 +169,8 @@ a {
     width: 200px;
     height: 100vh;
     z-index: 999;
-    backdrop-filter: blur(20px);
     background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     box-shadow: -10px 0 -10px rgb(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
