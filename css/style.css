@@ -668,6 +668,37 @@ a {
     border-top: 1px solid #9FC0E6;
 }
 
+#button-scrollup {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,opacity .5s,visibility .5s;
+    opacity: 1;
+    visibility: visible;
+    z-index: 998;
+    background-image: url("https://www.prioxis.com/_next/static/media/left_arrow.97c11035.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(90deg);
+}
+
+#button-scrollup:active, #button-scrollup:hover {
+    background-image: url("https://www.prioxis.com/_next/static/media/left_arrow_hover.0c7708be.webp");
+}
+
+/* Responsive */
+
+@media (min-width: 500px) {
+    #button-scrollup {
+        margin: 30px;
+    }
+}
+
 @media (max-width: 1240px) {
     /* View in 1199px */
 
